@@ -1,0 +1,203 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .cf7-inbound-organizer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .cf7-inbound-organizer-column.col-2 {
+    width: 40%;
+  }
+
+  .cf7-inbound-organizer-column.col-3 {
+    width: 25%;
+  }
+
+  .cf7-inbound-organizer-column.col-4 {
+    width: 20%;
+  }
+
+  .cf7-inbound-organizer-column.col-5 {
+    width: 15%;
+  }
+
+  
+  .cf7-inbound-organizer-column {
+    min-height: 100vh;
+    padding-left: 20px;
+    border: 1px solid #dcdcde;
+  }
+
+  .cf7-gray {
+    background-color: #dcdcde;
+  }
+
+  .cf7-red {
+    background-color: #d64e07;
+  } 
+
+  .cf7-red > p, .cf7-red > h3, .cf7-red > h2, .cf7-red > span,
+  .cf7-red .ui-dialog-content p, .cf7-red .ui-dialog-content h3, 
+  .cf7-red .ui-dialog-content span 
+  {
+    color: white;
+  }
+
+  .cf7-green {
+    background-color: #a3b745;
+  }
+
+  .cf7-blue {
+    background-color: #72aee6;
+  }
+
+  .cf7-white {
+    background-color: white;
+  }
+
+  .cf7-brown{ 
+    background-color: #c7a589;
+  }
+
+  .cf7-inbound-organizer-column .button-primary {
+    margin: 15px 0 15px 0;
+  }
+
+  .cf7-inbound-organizer-card {
+    border: 1px solid #c3c4c7;
+    border-radius: 10px;
+    margin:  0 20px 10px -10px;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+  }
+
+  .cf7-inbound-organizer-card h3 {
+    font-size: medium;
+    display: block;
+    margin: 25px 0 0 0;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap; 
+  }
+
+  .cf7-inbound-organizer-card p {
+    font-size: medium;
+    margin-top: 2px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .cf7-inbound-organizer-card .cf7-inbound-organizer-card-datetime {
+    float: right;
+  }
+
+  #cf7-modal-background {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color:#1d2327;
+    opacity: 0.9;
+  }
+
+  #cf7-inbound-organizer-card-detail .cf7-inbound-organizer-card-datetime {
+    float: right;
+    margin-right: 3px;
+  }
+
+  #cf7-inbound-organizer-card-detail {
+    display: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: #3c434a;
+   }
+
+   #cf7-inbound-organizer-card-detail form {
+    margin-top: 20px;
+   }
+
+   #cf7-inbound-organizer-card-detail form textarea, textarea:disabled {
+    width: 100%;
+    border: 1px solid #c3c4c7;
+    color: #3c434a;
+   }
+
+   #cf7-inbound-organizer-card-detail form button {
+    display: none;
+    margin-bottom: 35px;
+   }
+
+
+  .ui-dialog {
+    border: 1px solid #c3c4c7;
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 2;
+  }
+
+  .ui-dialog-content p {
+    font-size: medium;
+  }
+
+  .ui-dialog-titlebar {
+    display: none;
+  }
+
+  #cf7-inbound-organizer-card-detail-close::before {
+    content: "\f158";
+    font-family: 'Dashicons';
+  }
+  
+  #cf7-inbound-organizer-card-detail-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: medium;
+    color: #2c3338;
+    cursor: pointer;
+  }
+  
+  #cf7-inbound-organizer-card-detail-trash::before, .cf7-inbound-organizer-card-trash::before {
+    content: "\f182";
+    font-family: 'Dashicons';
+  }
+  
+  #cf7-inbound-organizer-card-detail-trash, .cf7-inbound-organizer-card-trash {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: medium;
+    color: #2c3338;
+    cursor: pointer;
+  }
+
+  #cf7-inbound-organizer-card-detail-color-palette {
+    position: absolute;
+    bottom: 5px;
+    font-size: larger;
+    cursor: pointer;
+    width: 25%;
+    box-sizing: border-box;
+  }
+
+  #cf7-inbound-organizer-card-detail-color-palette td {
+    border: 1px solid #dcdcde;
+  }
+
+  #cf7-inbound-organizer-message {
+    display: none;
+  }
+
+ 

@@ -1,0 +1,243 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-02-02 16:34+0100\n"
+"PO-Revision-Date: 2023-02-02 16:38+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: admin\n"
+"X-Poedit-SearchPath-2: includes\n"
+"X-Poedit-SearchPathExcluded-0: languages\n"
+
+#: admin/class-cf7-inbound-organizer-admin.php:243
+msgid "Cannot continue to run CF7 Inbound Organizer, it has been deactivated."
+msgstr ""
+"Het is niet mogelijk om CF7 Inbound Organizer te runnen, de plugin is "
+"gedeactiveerd."
+
+#: admin/class-cf7-inbound-organizer-admin.php:247
+#, php-format
+msgid ""
+"You need to activate the plugins %s and %s. Once those plugins are active, "
+"you can reactivate CF7 Inbound Organizer."
+msgstr ""
+"Activeer de plugins %s en %s. Daarna kan CF7 Inbound Organizer worden "
+"gereactiveerd."
+
+#: admin/class-cf7-inbound-organizer-admin.php:256
+#: includes/class-cf7-inbound-organizer-activator.php:58
+#, php-format
+msgid "Back to the %splugins page%s."
+msgstr "Terug naar de %splugins pagina%s."
+
+#: admin/class-cf7-inbound-organizer-admin.php:273
+#: admin/class-cf7-inbound-organizer-admin.php:411
+msgid "Inbound Organizer"
+msgstr "Inbound Organizer"
+
+#: admin/class-cf7-inbound-organizer-admin.php:274
+msgid "Organizer Settings"
+msgstr "Organizer Instellingen"
+
+#: admin/class-cf7-inbound-organizer-admin.php:293
+msgid "Today"
+msgstr "Vandaag"
+
+#: admin/class-cf7-inbound-organizer-admin.php:296
+msgid "Yesterday"
+msgstr "Gisteren"
+
+#: admin/class-cf7-inbound-organizer-admin.php:385
+msgid "Load more"
+msgstr "Laad meer"
+
+#: admin/class-cf7-inbound-organizer-admin.php:454
+#, php-format
+msgid "Message from %s moved to %s."
+msgstr "Bericht verplaatst van %s naar %s."
+
+#: admin/class-cf7-inbound-organizer-admin.php:512
+#, php-format
+msgid "Message from %s sent to trash."
+msgstr "Bericht van %s verplaatst naar trash."
+
+#: admin/class-cf7-inbound-organizer-admin.php:677
+#, php-format
+msgid "%s older messages added to the Inbound Organizer."
+msgstr "%s oudere berichten toegevoegd aan de Inbound Organizer."
+
+#: admin/class-cf7-inbound-organizer-admin.php:684
+msgid "No older messages to be added to the Inbound Organizer."
+msgstr "Geen oudere berichten om toe te voegen aan de Inbound Organizer."
+
+#: admin/class-cf7-inbound-organizer-admin.php:691
+msgid "Invalid input received, no messages added."
+msgstr "Ongeldige invoer, geen berichten toegevoegd."
+
+#: admin/class-cf7-inbound-organizer-admin.php:726
+#: admin/class-cf7-inbound-organizer-admin.php:822
+msgid "Columns"
+msgstr "Kolommen"
+
+#: admin/class-cf7-inbound-organizer-admin.php:734
+msgid "Number of columns"
+msgstr "Aantal kolommen"
+
+#: admin/class-cf7-inbound-organizer-admin.php:744
+#, php-format
+msgid "Column name %d"
+msgstr "Kolomnaam %d"
+
+#: admin/class-cf7-inbound-organizer-admin.php:752
+#, php-format
+msgid "Column color %d"
+msgstr "Kolomkleur %d"
+
+#: admin/class-cf7-inbound-organizer-admin.php:773
+#: admin/class-cf7-inbound-organizer-admin.php:819
+msgid "General"
+msgstr "Algemeen"
+
+#: admin/class-cf7-inbound-organizer-admin.php:781
+msgid "Sorting"
+msgstr "Sorteren"
+
+#: admin/class-cf7-inbound-organizer-admin.php:791
+msgid "Page size (# messages)"
+msgstr "Paginagrootte (# berichten)"
+
+#: admin/class-cf7-inbound-organizer-admin.php:810
+msgid "Inbound Organizer Settings"
+msgstr "Instellingen voor Inbound Organizer"
+
+#: admin/class-cf7-inbound-organizer-admin.php:825
+msgid "Add existing messages"
+msgstr "Bestaande berichten toevoegen"
+
+#: admin/class-cf7-inbound-organizer-admin.php:837
+#: admin/class-cf7-inbound-organizer-admin.php:890
+msgid "Save changes"
+msgstr "Wijzigingen opslaan"
+
+#: admin/class-cf7-inbound-organizer-admin.php:847
+msgid "Add older messages"
+msgstr "Voeg oudere berichten toe"
+
+#: admin/class-cf7-inbound-organizer-admin.php:850
+msgid ""
+"Use this page to add messages to the Inbound Organizer that were received "
+"prior to installing this plugin."
+msgstr ""
+"Gebruik deze pagina om berichten aan de Inbound Organizer toe te voegen die "
+"zijn ontvangen voordat deze plugin werd geïnstalleerd."
+
+#: admin/class-cf7-inbound-organizer-admin.php:854
+msgid "Add messages since"
+msgstr "Voeg berichten toe vanaf"
+
+#: admin/class-cf7-inbound-organizer-admin.php:856
+msgid "days ago"
+msgstr "dagen geleden"
+
+#: admin/class-cf7-inbound-organizer-admin.php:859
+msgid "To column"
+msgstr "Naar kolom"
+
+#: admin/class-cf7-inbound-organizer-admin.php:879
+msgid "Add"
+msgstr "Voeg toe"
+
+#: admin/class-cf7-inbound-organizer-admin.php:910
+msgid "Change the column settings here."
+msgstr "Verander hier de instellingen voor kolommen."
+
+#: admin/class-cf7-inbound-organizer-admin.php:918
+msgid "Change the general settings here."
+msgstr "Verander hier de algemene instellingen."
+
+#: admin/class-cf7-inbound-organizer-admin.php:968
+msgid "2 columns"
+msgstr "2 kolommen"
+
+#: admin/class-cf7-inbound-organizer-admin.php:969
+msgid "3 columns"
+msgstr "3 kolommen"
+
+#: admin/class-cf7-inbound-organizer-admin.php:970
+msgid "4 columns"
+msgstr "4 kolommen"
+
+#: admin/class-cf7-inbound-organizer-admin.php:971
+msgid "5 columns"
+msgstr "5 kolommen"
+
+#: admin/class-cf7-inbound-organizer-admin.php:994
+#, php-format
+msgid "Column %s"
+msgstr "Kolom %s"
+
+#: admin/class-cf7-inbound-organizer-admin.php:1011
+msgid "Gray"
+msgstr "Grijs"
+
+#: admin/class-cf7-inbound-organizer-admin.php:1012
+msgid "Red"
+msgstr "Rood"
+
+#: admin/class-cf7-inbound-organizer-admin.php:1013
+msgid "Green"
+msgstr "Groen"
+
+#: admin/class-cf7-inbound-organizer-admin.php:1014
+msgid "Blue"
+msgstr "Blauw"
+
+#: admin/class-cf7-inbound-organizer-admin.php:1015
+msgid "Brown"
+msgstr "Bruin"
+
+#: admin/class-cf7-inbound-organizer-admin.php:1077
+msgid "Date / time descending"
+msgstr "Datum / tijd aflopend"
+
+#: admin/class-cf7-inbound-organizer-admin.php:1078
+msgid "Date / time ascending"
+msgstr "Datum / tijd oplopend"
+
+#: admin/class-cf7-inbound-organizer-admin.php:1079
+msgid "Subject ascending"
+msgstr "Onderwerp oplopend"
+
+#: admin/partials/cf7-inbound-organizer-admin-card-view.php:45
+msgid "Save"
+msgstr "Opslaan"
+
+#: includes/class-cf7-inbound-organizer-activator.php:50
+msgid "Cannot activate CF7 Inbound Organizer."
+msgstr "CF7 Inbound Organizer kan niet worden geactiveerd."
+
+#: includes/class-cf7-inbound-organizer-activator.php:53
+#, php-format
+msgid "You need the plugins %s and %s for this plugin to function."
+msgstr "De plugins %s en %s zijn nodig om deze plugin te laten werken."
+
+#~ msgid "How to sign up"
+#~ msgstr "Hoe kun je inschrijven"
+
+#~ msgid "Only recognized email adressess can sign-up"
+#~ msgstr "Inschrijven kan alleen voor bepaalde e-mailadressen"
+
+#~ msgid "Persons"
+#~ msgstr "Personen"
